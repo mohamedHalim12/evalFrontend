@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  background-color: aquamarine;
+  height: 100px;
+  display: flex;
+}
+.wrap-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.logo {
+  background-color: beige;
+  width: 20%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(200, 195, 188);
+}
